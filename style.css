@@ -2,10 +2,8 @@
 
 body {
     background-color: hsl(212, 45%, 89%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     font-family: 'Outfit', sans-serif;
     height: 97vh;
 }
@@ -30,7 +28,6 @@ body {
     padding-right: 10px;
     Font-size: 15px;
     text-align: center;
-
 }
 
 h1 {
